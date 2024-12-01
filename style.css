@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header ul li {
+    display: inline;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+header ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#about {
+    background-color: #000000;
+}
+
+#skills {
+    background-color: #2c003e;
+}
+
+#projects {
+    background-color: #000000;
+}
+
+#contact {
+    background-color: #2c003e;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+section p {
+    color: #cccccc;
+}
+
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #f4f4f4;
+}
+
+.project {
+    margin: 2rem 0;
+    text-align: left;
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+.project h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.project p {
+    color: #cccccc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+    margin-top: 2rem;
+}
+
+a {
+    color: #a78bfa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #d4bfff;
+}
